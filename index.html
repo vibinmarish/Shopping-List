@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title >Shopping List</title>
+</head>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Shopping List</a>
+    </nav>
+<body>
+    <br>
+    <div class="container">
+        <div class="shadow p-4 mb-4 card">
+            <div class="card-body">
+                <h5 id="tit">Add Items</h5>
+                <form id="addForm" action="#" class="form-inline mb-3">
+                    <input type="type" class="form-control mr-3" id="item">
+                    <input id="submit-btn" class="btn btn-dark" type="submit" value="Submit">
+                </form>
+                <h5>List Of Items</h5>
+                <ul class="list-group" id ="items" >
+                    <li class="list-group-item">Apple
+                        <button class="btn btn-danger btn-sm float-right delete">X</button>
+                    </li>
+                    <li class="list-group-item">Orange
+                        <button class="btn btn-danger btn-sm float-right delete">X</button>
+                    </li>
+                    <li class="list-group-item">Dragon Fruit
+                        <button class="btn btn-danger btn-sm float-right delete">X</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
